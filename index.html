@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio | Software Engineer</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #f4f7fb;
+            color: #222;
+            line-height: 1.6;
+        }
+
+        header {
+            background: #10213b;
+            color: white;
+            padding: 20px 8%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 12px;
+        }
+
+        header h2 {
+            color: #55d6be;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin-left: 15px;
+        }
+
+        nav a:hover {
+            color: #55d6be;
+        }
+
+        section {
+            padding: 55px 8%;
+        }
+
+        .hero {
+            background: #10213b;
+            color: white;
+            text-align: center;
+            padding: 85px 8%;
+        }
+
+        .hero h1 {
+            font-size: 38px;
+            margin-bottom: 12px;
+        }
+
+        .hero span {
+            color: #55d6be;
+        }
+
+        .hero p {
+            margin-bottom: 25px;
+        }
+
+        .btn {
+            display: inline-block;
+            background: #55d6be;
+            color: #10213b;
+            padding: 11px 22px;
+            border-radius: 6px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        h2 {
+            margin-bottom: 18px;
+        }
+
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 12px;
+        }
+
+        .skills span {
+            background: white;
+            padding: 12px 18px;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px #00000010;
+        }
+
+        .project-card {
+            background: white;
+            padding: 22px;
+            border-radius: 10px;
+            margin-top: 12px;
+            box-shadow: 0 3px 12px #00000010;
+        }
+
+        .project-card a {
+            color: #087f8c;
+            font-weight: bold;
+        }
+
+        #contact a {
+            color: #087f8c;
+        }
+
+        footer {
+            text-align: center;
+            background: #10213b;
+            color: white;
+            padding: 18px;
+        }
+
+        @media (max-width: 600px) {
+            header {
+                flex-direction: column;
+            }
+
+            nav a {
+                margin: 5px;
+                display: inline-block;
+            }
+
+            .hero h1 {
+                font-size: 29px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h2>My Portfolio</h2>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h1>Hello, I'm <span>Anayatullah Khan</span></h1>
+        <p>Aspiring Software Engineer | Learning Web Development</p>
+        <a class="btn" href="#projects">View My Projects</a>
+    </section>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>
+            I am a software engineering student and a beginner
+            in web development. I am learning HTML and CSS
+            and improving my programming and problem-solving skills.
+            I enjoy building simple websites and learning new technologies.
+        </p>
+    </section>
+
+    <section id="skills">
+        <h2>My Skills</h2>
+        <div class="skills">
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>C++ (Learning)</span>
+            <span>Python (Learning)</span>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2>My Projects</h2>
+
+        <div class="project-card">
+            <h3>Personal Portfolio Website</h3>
+            <p>
+                A responsive personal website built using HTML
+                and CSS to showcase my introduction, skills,
+                projects and contact information.
+            </p>
+            <p><strong>Technologies:</strong> HTML, CSS</p>
+        </div>
+    </section>
+    <section id="contact">
+  <h2>Contact Me</h2>
+
+  <p>
+    Phone:
+    <a href="tel:6209898183">6209898183</a>
+  </p>
+
+  <p>
+    Email:
+    <a href="mailto:anayatulllahkhan163@gmail.com">
+      anayatulllahkhan163@gmail.com
+    </a>
+  </P>
+
+</Section>     
+            
+<p>
+  LinkedIn:
+  <a
+    href="https://www.linkedin.com/in/anayatullah-khan-0904b32aa/"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    Visit my LinkedIn
+  </a>
+</p>
+
+    </section>
+
+    <footer>
+        <p>© 2026 Anayatullah Khan | My Portfolio</p>
+    </footer>
+
+</body>
+</html>
